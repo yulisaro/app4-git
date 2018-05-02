@@ -1,0 +1,267 @@
+﻿<!doctype html>
+<html>
+<head>
+  <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+  
+  <meta charset="utf-8"  >
+  <title> Contaminación Ambiental </title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app4.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--<script src="js/acciones.js"></script>-->
+  <script src="phonegap.js"></script><!--necesario*/-->
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+ </head><body onLoad="MM_preloadImages('imagenes/ruido.jpg','imagenes/no.jpg')">
+
+
+ 
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Contaminación Ambiental </h1>
+  </div>
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Contaminación </h1>
+    <div>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/basura.jpg" width="50%" height="50%">
+    </div>
+   </div>
+  </div>
+  <div>
+
+    <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Principales causas de la Contaminación </h1>
+    <li> Industria automotriz </li>
+    <li> Proliferación del plástico </li>
+    <li> Ruidos molestos </li>
+    <li> Basureros acuáticos </li>
+<div>
+     <br> 
+    </div>
+    <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/ruido.jpg',1)"><img src="imagenes/vaso.jpg" width="560" height="420" id="Image21"></a> </div>
+   </div>
+  </div>
+  <div> 
+
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> Definición </h2>
+       <p> ¿Que es la contaminación? </p> 
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Tipos de contaminación: </h2>
+       <p> Se muestran los tipos de contaminación </p>  
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Consecuencias </h2>
+       <p> Se muestran las consecuencias </p>  
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Reciclaje </h2>
+       <p> ¿Que es y como se clasifica el reciclaje? </p> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Medidas para combatirla </h2>
+       <p> Se muestran las medidas para combatirla </p>
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/reciclaje1.png" width="46" height="46">
+   </div>
+   <div>
+    <h4> Aplicación Cuatro </h4>
+    <h4> María Yulissa Reyes Romero </h4>
+   </div>
+  </div>
+ </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Definición </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p> La definición correspondiente a contaminación es la acción de contaminar, corromper o ensuciar a través de introducir sustancias o elementos físicos en un medio provocándole que no sea apto para su uso o volviéndolo inseguro.
+El medio puede tratarse de un ser vivo un medio físico o un ecosistema. En este último caso es la presencia de sustancias en el medio ambiente que afectan de forma negativa al entorno y sus condiciones de vida, así como la higiene y salud de todos los seres vivos,La contaminación es uno de los males de la actualidad, debido al deterioro constante del medio ambiente a través de sustancias perjudiciales. Y también por el aumento descontrolado de las propias sustancias del medio ambiente. Todas ellas alteran y producen un desequilibrio o resultado nocivo no solo para un ecosistema puntual sino para toda la vida en la tierra </p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/conta.jpg',1)"><img src="imagenes/contaminacion.jpg" width="50%" height="50%" id="Image17"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/reciclaje1.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Cuatro </h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Tipos de contaminación </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Tipos de contaminación </h2>
+
+ <li> Atmosférica o ambiental. Es la presencia en la atmósfera de sustancias químicas que provocan un riesgo para todo ser vivo. </li>
+
+<li> Del agua o hídrica. Es la abundancia de sustancias nocivas en océanos, ríos, mares, lagos o toda fuente de agua que la misma no pueda absorber ni reciclar para mantener el equilibrio. </li>
+
+<li> Del suelo. Es la aparición de sustancias que contaminan en la corteza terrestre. El origen puede ser común a la del agua. Añadiéndose que los vertederos de basura y los cinturones ecológicos están comenzando a contribuir a este tipo de contaminación.  También se pueden sumar otras causantes. </li>
+<br>
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/contaminacion1.jpg" alt="contaminacion1" title="contaminacion1" id="wows1_0"/></li>
+		<li><img src="data1/images/cobtaminacon3.jpg" alt="cobtaminacon3" title="cobtaminacon3" id="wows1_1"/></li>
+		<li><img src="data1/images/contaminacionsu.jpg" alt="contaminacionsu" title="contaminacionsu" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/contami2.jpg" alt="jquery slider" title="contami2" id="wows1_3"/></a></li>
+		<li><img src="data1/images/conta.jpg" alt="conta" title="conta" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="contaminacion1"><span><img src="data1/tooltips/contaminacion1.jpg" alt="contaminacion1"/>1</span></a>
+		<a href="#" title="cobtaminacon3"><span><img src="data1/tooltips/cobtaminacon3.jpg" alt="cobtaminacon3"/>2</span></a>
+		<a href="#" title="contaminacionsu"><span><img src="data1/tooltips/contaminacionsu.jpg" alt="contaminacionsu"/>3</span></a>
+		<a href="#" title="contami2"><span><img src="data1/tooltips/contami2.jpg" alt="contami2"/>4</span></a>
+		<a href="#" title="conta"><span><img src="data1/tooltips/conta.jpg" alt="conta"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/reciclaje1.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Cuatro </h4>
+  </div>
+ </div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Consecuencias </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p> La contaminación se produce cuando los residuos contaminan el entorno natural; trayendo como consecuencias cambios que afectan a nuestro estilo de vida normal, de manera perjudicial. Los residuos son los elementos principales de la contaminación. La contaminación altera nuestro ecosistema y el equilibrio del medio ambiente
+    </p>
+    <br>
+    <img src="imagenes/combi.jpeg" width="50%" height="50%">
+    <h2> Más Informacion consulta la pagina: </h2>
+   <a href="http://comofuncionaque.com/que-es-la-contaminacion-causas-y-efectos/" target="_self"> CLICK AQUI</a>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/reciclaje1.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Cuatro </h4>
+    
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Reciclaje </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Para la separación en origen doméstico se usan contenedores de distintos colores: </h2>
+<li> Contenedor amarillo (envases): En éste se deben depositar todo tipo de envases ligeros como los envases de plásticos (botellas, tarrinas, bolsas, bandejas, etc.), de latas (bebidas, conservas, etc.) </li>
+
+<li> Contenedor azul (papel y cartón): En este contenedor se deben depositar los envases de cartón (cajas, bandejas, etc.), así como los periódicos, revistas, papeles de envolver, propaganda, etc. Es aconsejable plegar las cajas de manera que ocupen el mínimo espacio dentro del contenedor. </li>
+
+<li> Contenedor verde (vidrio): En este contenedor se depositan envases de vidrio. </li>
+
+<li> Contenedor negro (orgánico): En el se depositan el resto de residuos que no tienen cabida en los grupos anteriores, fundamentalmente materia biodegradable. </li>
+<br>
+<img src="imagenes/r.jpg" width="50%" height="50%"> 
+ <h2>Más Informacion consulta la pagina:</h2>
+   <a href="https://www.vanguardia.com.mx/articulo/que-es-reciclar-y-para-que-sirve" target="_self"> CLICK AQUI</a>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/reciclaje1.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Cuatro </h4>
+  
+  </div>
+  </div>
+ </div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Medidas para combatirla</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Crear conciencia ciudadana. </h2>
+<li> No quemar ni talar plantas. </li>
+<li> Colocar la basura en los lugares apropiados. </li>
+<li> Regular el servicio de aseo urbano. </li>
+<li> Controlar el uso de fertilizantes y pesticidas. </li>
+<li> Crear vías de desagüe para las industrias que no lleguen a los mares o ríos utilizados para el servicio o consumo del ser humano o de los animales. </li>
+<li> Controlar los derrames accidentales de petróleo. </li>
+<li> Controlar los relaves mineros. </li>
+<li> Reciclar objetos (darles un nuevo uso). </li>
+<li> Tomar y generar conciencia de lo que está sucediendo. </li>
+<li> Realizar campañas de apoyo. </li>
+<li> Evitar el uso de aerosoles. </li>
+<li> Tener sentido de responsabilidad. </li>
+  <br> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/no.jpg',1)"><img src="imagenes/letras.jpg" width="3072" height="1728" id="Image22"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/reciclaje1.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Cuatro </h4>
+  </div>
+ </div>
+</body>
+</html>
+          
